@@ -1,27 +1,56 @@
-/* personalizar body */
-body {
-
-    background-image: url(https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-repeat: no-repeat;
-    background-size: 100%;
+/* Fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* Seletor universal para margin */
+* {
+    margin: 0;
+}
+/* Posição da imagem do header */
+header {
+    height: 20vh;
+    background-image: url(../imgs/headerback.jpg);
+}
+/* Poisição e estilo do menu do header */
+.menus {
+    margin-top: 3vh;
+    margin-right: 3vh;
+    float: right;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #ff4500;
+}
+#main{
+    height: 52vh;
+    margin: 9vh;
     text-align: center;
-    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+    color: #ff4500;
 }
-/* Personalizar o título */
-h1 {
-    color:#FF0000;
-    font-family: fantasy;
-    font-style: italic;
+/* Posição das imagens dos produtos */
+img.produtos{
+    margin-left: 3vh;
+    display: block;
 }
-/* Personalizar o subtítulo */
-#green {
-    color: #00ff00;
-    font-weight: bolder;
+/* Posição e estilo da descrição dos produtos */
+a.descricao{
+    margin: 3vh;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #000000;
 }
-#blue {
-    color: #0000ff;
+/* Posição e estilo da imagem do footer */
+footer {
+    height: 10vh;
+    background-image: url(../imgs/footerback.jpg);
 }
-.colors {
-    color: sandybrown;
-    font-size: 24px;
+/* Posição e estilo do menu do footer */
+.informacoes {
+    margin-top: 3vh;
+    margin-left: 35vh;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #ff4500;
 }
