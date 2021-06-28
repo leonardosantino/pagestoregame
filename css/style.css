@@ -11,45 +11,46 @@ header {
 }
 /* Poisição e estilo do menu do header */
 .menus {
-    margin-top: 3vh;
-    margin-right: 3vh;
     float: right;
+    margin: 25px ;
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     color: #ff4500;
 }
-#main{
+.icones {
+    float: right;
+    margin-right: 25px;
+}
+.main{
     height: 52vh;
     margin: 9vh;
     text-align: center;
     font-family: 'Staatliches', cursive;
     color: #ff4500;
 }
-/* Posição das imagens dos produtos */
-img.produtos{
-    margin-left: 3vh;
-    display: block;
-}
 /* Posição e estilo da descrição dos produtos */
-a.descricao{
-    margin: 3vh;
+.descricao{
     display: inline-block;
+    margin: 25px 65px;
     text-align: center;
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     color: #000000;
 }
+/* Posição das imagens dos produtos */
+.produtos{
+    display: block;
+}
 /* Posição e estilo da imagem do footer */
 footer {
     height: 10vh;
     background-image: url(../imgs/footerback.jpg);
+    text-align: center;
 }
 /* Posição e estilo do menu do footer */
 .informacoes {
-    margin-top: 3vh;
-    margin-left: 40vh;
-    float: left;
-    text-align: center;
+    display: inline-flex;
+    margin: 15px 50px;
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     color: #ff4500;
