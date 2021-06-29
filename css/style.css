@@ -12,7 +12,7 @@ header {
 /* Poisição e estilo do menu do header */
 .menus {
     float: right;
-    margin: 25px ;
+    margin: 20px ;
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     color: #ff4500;
@@ -31,7 +31,7 @@ header {
 /* Posição e estilo da descrição dos produtos */
 .descricao{
     display: inline-block;
-    margin: 25px 65px;
+    margin: 33px;
     text-align: center;
     text-decoration: none;
     font-family: 'Staatliches', cursive;
