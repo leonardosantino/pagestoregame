@@ -9,37 +9,60 @@ header {
     height: 20vh;
     background-image: url(../imgs/headerback.jpg);
 }
+/* Posição do logo */
+.logo{
+    width: 18vh;
+} 
 /* Poisição e estilo do menu do header */
 .menus {
     float: right;
-    margin: 20px ;
+    padding: 2vh;
     text-decoration: none;
-    font-family: 'Staatliches', cursive;
+    font: 2.4vh 'Staatliches', cursive;
     color: #ff4500;
 }
 .icones {
     float: right;
-    margin-right: 25px;
+    padding-right: 2vh;
+    width: 6vh;
+}
+.icones:hover{
+    margin-top: 0.5vh;
 }
 .main{
-    height: 52vh;
-    margin: 9vh;
+    height: 66vh;
+    padding: 2vh;
     text-align: center;
-    font-family: 'Staatliches', cursive;
+    font: 2.4vh 'Staatliches', cursive;
     color: #ff4500;
 }
 /* Posição e estilo da descrição dos produtos */
 .descricao{
     display: inline-block;
-    margin: 33px;
+    margin: 2vh;
     text-align: center;
     text-decoration: none;
-    font-family: 'Staatliches', cursive;
+    font: 2.4vh 'Staatliches', cursive;
     color: #000000;
 }
 /* Posição das imagens dos produtos */
 .produtos{
     display: block;
+    width: 23vh;
+}
+.produtos:hover {
+    box-shadow: #ff4500 0px 0px 15px 1px;
+}
+.forms {
+    display: inline-block;
+    padding: 25px;
+    /* background-image: url(../imgs/forms.png); */
+    box-shadow: #ff4500 2vh 2vh 4vh 0.25vh;
+}
+#botao {
+    font: 2.4vh 'Staatliches', cursive;
+    background-color: #ff4500;
+    color: #ffffff;
 }
 /* Posição e estilo da imagem do footer */
 footer {
@@ -49,9 +72,13 @@ footer {
 }
 /* Posição e estilo do menu do footer */
 .informacoes {
-    display: inline-flex;
-    margin: 15px 50px;
+    display: inline-block;
+    margin: auto 5vw;
+    padding: 0.2vh;
     text-decoration: none;
-    font-family: 'Staatliches', cursive;
+    font: 2vh 'Staatliches', cursive;
     color: #ff4500;
 }
+/* #41A425 verde */
+/* #376FDF azul */
+/* #FF4425 laranja */
