@@ -73,7 +73,7 @@ footer {
 /* Posição e estilo do menu do footer */
 .informacoes {
     display: inline-block;
-    margin: auto 5vw;
+    margin: auto 3vw;
     padding: 0.2vh;
     text-decoration: none;
     font: 2vh 'Staatliches', cursive;
