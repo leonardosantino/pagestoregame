@@ -12,7 +12,11 @@ header {
 /* Posição do logo */
 .logo{
     width: 18vh;
-} 
+}
+.logo:hover {
+    box-shadow: #ff4500 0vh 0vh 5vh 1vh;
+    transition: box-shadow, 0.7s;
+}
 /* Poisição e estilo do menu do header */
 .menus {
     float: right;
@@ -29,18 +33,19 @@ header {
 .icones:hover{
     margin-top: 0.5vh;
 }
+main {
+    padding: 2vh;
+    object-position: center;
+    text-align: center;
+}
 .main{
     height: 66vh;
-    padding: 2vh;
-    text-align: center;
     font: 2.4vh 'Staatliches', cursive;
     color: #ff4500;
 }
 /* Posição e estilo da descrição dos produtos */
 .descricao{
     display: inline-block;
-    margin: 2vh;
-    text-align: center;
     text-decoration: none;
     font: 2.4vh 'Staatliches', cursive;
     color: #000000;
@@ -48,16 +53,20 @@ header {
 /* Posição das imagens dos produtos */
 .produtos{
     display: block;
-    width: 23vh;
+    margin: 2vh;
+    width: 18vh;
 }
 .produtos:hover {
-    box-shadow: #ff4500 0px 0px 15px 1px;
+    box-shadow: #000000 0vh 0vh 3vh 0vh;
+    transition: box-shadow, 0.7s;
+}
+.conteudo {
+    height: 16.5vh;
 }
 .forms {
     display: inline-block;
-    padding: 25px;
-    /* background-image: url(../imgs/forms.png); */
-    box-shadow: #ff4500 2vh 2vh 4vh 0.25vh;
+    padding: 2vh;
+    box-shadow: #ff4500 1vh 1vh 2vh 0.25vh;
 }
 #botao {
     font: 2.4vh 'Staatliches', cursive;

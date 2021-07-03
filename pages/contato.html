@@ -10,14 +10,16 @@
 </head>
 <body>
     <header>
-        <!-- Logo principal -->
-        <a class="logo" href="../index.html"><img height="60%" src="../imgs/logo.jpg" alt=""></a>
-        <!-- menus do header -->
-        <a class="menus" href="../pages/crie.html">Crie a sua conta</a>
-        <a class="menus" href="../pages/entre.html">Entre</a><br>
-        <!-- icones do header -->
-        <a class="icones" href="https://www.instagram.com/" target="_blanck"><img src="../imgs/instagram.png" alt="whatsapp"></a>
-        <a class="icones" href="https://web.whatsapp.com/" target="_blanck"><img src="../imgs/whatsapp.png" alt="whatsapp"></a>
+        <div>
+            <!-- Logo principal -->
+            <a href="../index.html"><img class="logo" src="../imgs/logo.jpg" alt=""></a>
+            <!-- menus do header -->
+            <a class="menus" href="crie.html">Crie a sua conta</a>
+            <a class="menus" href="entre.html">Entre</a>
+        </div>
+            <!-- icones do header -->
+            <a  href="https://www.instagram.com/" target="_blanck"><img class="icones" src="../imgs/instagram.png" alt="instagram"></a>
+            <a  href="https://web.whatsapp.com/" target="_blanck"><img class="icones" src="../imgs/whatsapp.png" alt="whatsapp"></a>
     </header>
     <main class="main">
         <!-- descrições de conteúdo -->
@@ -27,8 +29,8 @@
             <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
             <label for="assunto">Assunto</label>
             <input type="text" name="assunto" id="assunto" placeholder="Assunto da sua conversa"><br><br>
-            <label for="menssagem">Menssagem</label>
-            <textarea name="menssagem" id="menssagem" cols="55" rows="10"></textarea><br>
+            <label for="menssagem">Menssagem</label><br>
+            <textarea name="menssagem" id="menssagem" cols="30" rows="10"></textarea><br>
             <input type="button" name="enviar" id="botao" value="Enviar">
         </form>
     </main>
