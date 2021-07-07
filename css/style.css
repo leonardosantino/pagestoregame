@@ -15,7 +15,8 @@ header {
 }
 .logo:hover {
     box-shadow: #ff4500 0vh 0vh 5vh 1vh;
-    transition: box-shadow, 0.7s;
+    /* transition: 0.7s; */
+    transition: 1s;
 }
 /* Poisição e estilo do menu do header */
 .menus {
@@ -24,6 +25,9 @@ header {
     text-decoration: none;
     font: 2.4vh 'Staatliches', cursive;
     color: #ff4500;
+}
+.menus:hover {
+    color: #41A425;
 }
 .icones {
     float: right;
@@ -35,7 +39,7 @@ header {
 }
 main {
     padding: 2vh;
-    object-position: center;
+    /* object-position: center; */
     text-align: center;
 }
 .main{
@@ -50,6 +54,10 @@ main {
     font: 2.4vh 'Staatliches', cursive;
     color: #000000;
 }
+.descricao:hover {
+    color: #376fdf93;
+    transition: 0.5s;
+}
 /* Posição das imagens dos produtos */
 .produtos{
     display: block;
@@ -57,8 +65,8 @@ main {
     width: 18vh;
 }
 .produtos:hover {
-    box-shadow: #000000 0vh 0vh 3vh 0vh;
-    transition: box-shadow, 0.7s;
+    box-shadow: #376fdf93 0vh 0vh 3vh 0vh;
+    transition: box-shadow, 0.5s;
 }
 .conteudo {
     height: 16.5vh;
@@ -68,10 +76,21 @@ main {
     padding: 2vh;
     box-shadow: #ff4500 1vh 1vh 2vh 0.25vh;
 }
+input:focus {
+    background-color: #41a42548;
+    transition: 1s;
+}
+textarea:focus {
+    background-color: #41a42548;
+    transition: 1s;
+}
 #botao {
     font: 2.4vh 'Staatliches', cursive;
     background-color: #ff4500;
     color: #ffffff;
+}
+#botao:hover {
+    background-color: #41A425;
 }
 /* Posição e estilo da imagem do footer */
 footer {
@@ -87,6 +106,9 @@ footer {
     text-decoration: none;
     font: 2vh 'Staatliches', cursive;
     color: #ff4500;
+}
+.informacoes:hover {
+    color: #41A425;
 }
 /* #41A425 verde */
 /* #376FDF azul */
