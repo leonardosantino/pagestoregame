@@ -29,6 +29,7 @@ header {
 .menus:hover {
     color: #41A425;
 }
+/* Posição dos icones whats e instagram */
 .icones {
     float: right;
     padding-right: 2vh;
@@ -37,15 +38,11 @@ header {
 .icones:hover{
     margin-top: 0.5vh;
 }
+/* Configurações gerais do main */
 main {
     padding: 2vh;
-    /* object-position: center; */
+    min-height: 66vh;
     text-align: center;
-}
-.main{
-    height: 66vh;
-    font: 2.4vh 'Staatliches', cursive;
-    color: #ff4500;
 }
 /* Posição e estilo da descrição dos produtos */
 .descricao{
@@ -68,13 +65,21 @@ main {
     box-shadow: #376fdf93 0vh 0vh 3vh 0vh;
     transition: box-shadow, 0.5s;
 }
-.conteudo {
-    height: 16.5vh;
+main h3 {
+    font-family: 'Staatliches', cursive;
+    color: #ff4500;
 }
-.forms {
+main p {
+    font-family: 'Staatliches', cursive;
+    color: #ff4500;
+}
+main form {
     display: inline-block;
     padding: 2vh;
-    box-shadow: #ff4500 1vh 1vh 2vh 0.25vh;
+    box-shadow: #00000075 1vh 1vh 2vh 0.25vh;
+    border-radius: 2vh;
+    font: 2.4vh 'Staatliches', cursive;
+    color: #ff4500;
 }
 input:focus {
     background-color: #41a42548;
