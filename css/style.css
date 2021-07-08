@@ -16,7 +16,7 @@ header {
 .logo:hover {
     box-shadow: #ff4500 0vh 0vh 5vh 1vh;
     /* transition: 0.7s; */
-    transition: 1s;
+    transition: 0.5s;
 }
 /* Poisição e estilo do menu do header */
 .menus {
