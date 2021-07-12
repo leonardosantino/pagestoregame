@@ -85,6 +85,7 @@ main h3 {
 main p {
     font-family: 'Staatliches', cursive;
     color: #ff4500;
+    text-decoration: none;
 }
 /* formatação de formulário */
 main form {
@@ -94,13 +95,20 @@ main form {
     border-radius: 2vh;
     font: 2.4vh 'Staatliches', cursive;
     color: #ff4500;
-    text-align: left;
+    text-align: center;
     animation: animation 1.5s;
+    background-color: #376fdf11;
+}
+form a {
+    text-decoration: none;
 }
 input {
     display: block;
-    margin-bottom: 2vh;
     transition: 0.5s ease-in-out;
+    margin: auto;
+    margin-bottom: 2vh;
+    border-radius: 6px;
+    border:none 2px;
 }
 input:focus {
     background-color: #41a42548;
@@ -110,7 +118,10 @@ input:hover {
 }
 select {
     display: block;
+    margin: auto;
     margin-bottom: 2vh;
+    border-radius: 6px;
+    border:none 2px;
 }
 textarea:focus {
     background-color: #41a42548;
@@ -130,13 +141,19 @@ textarea:focus {
 .radio input {
     display: inline;
 }
+.google button {
+    text-align: justify;
+    margin: 2vh auto;
+    font: 2vh 'Staatliches', cursive;
+}
 .submit {
     margin-top: 2vh;
     text-align: center;
 }
 .submit input {
     display: inline;
-    margin: 0vh 1vw;
+    margin: 2vh 2vw;
+    height: 5vh;
     font: 2vh 'Staatliches', cursive;
     background-color: #ff4500;
     color: #ffffff;
@@ -145,7 +162,6 @@ textarea:focus {
 .submit input:hover {
     background-color: #41A425;
 }
-
 /* vídeo */
 iframe {
     margin-top: 8vh;
