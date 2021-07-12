@@ -45,7 +45,21 @@
             <input type="email" id="login" name="login" placeholder="Digite seu email">
             <label for="senha">Senha</label>
             <input type="password" id="senha" name="senha" placeholder="Crie sua senha">
-            <input type="button" name="cadastrar" id="botao" value="Cadastre-se">
+            <div class="condicoes">
+                <label for="termos" class="label">Concordar com os Termos</label>
+                <div class="radio">
+                    <input type="radio" name="termos">
+                    <label for="termos">Sim</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="termos" >
+                    <label for="termos">Não</label>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" name="cadastrar" class="botao" value="Cadastre-se">
+                <input type="reset" name="cancelar" class="botao" value="Cancelar">
+            </div>
         </form>
     </main>
     <footer>
